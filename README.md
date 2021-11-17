@@ -1,1 +1,1 @@
-Data is dynamic by using json file in assets path.
+Data is dynamic by using json file in assets folder.
