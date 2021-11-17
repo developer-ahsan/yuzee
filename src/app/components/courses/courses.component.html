@@ -1,0 +1,16 @@
+<ion-list class="mt-2">
+    <ion-list-header><b>Top 10 Courses</b></ion-list-header>
+    <ion-item *ngFor="let course of courses">
+        <ion-avatar slot="start">
+            <img src="{{course.img}}">
+        </ion-avatar>
+        <ion-label>
+            <h3><b>{{course.title}}</b></h3>
+            <p>{{course.text}}</p>
+        </ion-label>
+    </ion-item>
+    <hr>
+    <div class="ion-text-center">
+        <ion-label color="primary">See all</ion-label>
+    </div>
+</ion-list>

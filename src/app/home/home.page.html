@@ -1,20 +1,19 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+    <ion-item-divider>
+        <ion-searchbar mode="ios"></ion-searchbar>
+    </ion-item-divider>
+    <ion-segment scrollable="true" color="light">
+        <button class="btn btn-outline-secondary m-1" *ngFor="let tag of tags">{{tag}}</button>
+    </ion-segment>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <!-- Recent Searches Section-->
+    <app-recent-search></app-recent-search>
+    <!-- Friend Request Section -->
+    <app-friend-requests></app-friend-requests>
+    <!-- Cources Section -->
+    <app-courses></app-courses>
+    <!-- Articles Section -->
+    <app-articles></app-articles>
 </ion-content>

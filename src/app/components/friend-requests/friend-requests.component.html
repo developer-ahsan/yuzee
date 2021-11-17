@@ -1,0 +1,18 @@
+<ion-list class="mt-2">
+    <ion-list-header><b>People You may know</b></ion-list-header>
+    <ion-item *ngFor="let request of requests">
+        <ion-avatar slot="start">
+            <img src="{{request.img}}">
+        </ion-avatar>
+        <ion-label>
+            <h3><b>{{request.name}}</b><img *ngIf="request.tick" class="ml-2" width="20" src="../../../assets/images/verify.png"></h3>
+            <p>{{request.about}}</p>
+            <p *ngIf="request.friends != ''" class="text-primary">{{request.friends}}</p>
+        </ion-label>
+        <ion-icon class="mr-2" name="person-add-outline"></ion-icon>
+    </ion-item>
+    <hr>
+    <div class="ion-text-center">
+        <ion-label color="primary">See more</ion-label>
+    </div>
+</ion-list>

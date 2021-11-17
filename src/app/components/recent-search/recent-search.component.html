@@ -1,0 +1,21 @@
+<ion-list class="mt-2">
+    <div class="d-flex">
+        <div class="flex-grow-1 ">
+            <ion-list-header><b>Recent searches</b></ion-list-header>
+        </div>
+        <div class="mr-3">
+            <ion-list-header class="text-primary"><b>Clear all</b></ion-list-header>
+        </div>
+    </div>
+
+    <ion-item lines="none" *ngFor="let recent of recent_searches">
+        <ion-icon name="search" *ngIf="recent.img == ''"></ion-icon>
+        <ion-avatar *ngIf="recent.img != ''">
+            <img src="{{recent.img}}">
+        </ion-avatar>
+        <ion-label class="ml-2">
+            <h6><b>{{recent.term}}</b></h6>
+            <p>{{recent.label}}</p>
+        </ion-label>
+    </ion-item>
+</ion-list>

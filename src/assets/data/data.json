@@ -1,0 +1,84 @@
+{
+    "tags": [
+        "People",
+        "Courses",
+        "Insititutions",
+        "Scholarship",
+        "Companies",
+        "Universities"
+    ],
+    "recent_searches": [{
+            "img": "",
+            "term": "I want to study marketing in England",
+            "label": ""
+        },
+        {
+            "img": "",
+            "term": "Institution that offers medical in Malaysia",
+            "label": ""
+        },
+        {
+            "img": "/assets/images/2.jpg",
+            "term": "Danny William",
+            "label": ""
+        },
+        {
+            "img": "/assets/images/1.jpg",
+            "term": "University of Wollongong",
+            "label": "Institution"
+        }
+    ],
+    "people_you_may_know": [{
+            "img": "/assets/images/1.jpg",
+            "tick": false,
+            "name": "Rick Novak",
+            "about": "French School of Kuala Lampur",
+            "friends": "8 mutual friends"
+        },
+        {
+            "img": "/assets/images/2.jpg",
+            "tick": true,
+            "name": "Honda Takumi",
+            "about": "French School of Kuala Lampur",
+            "friends": ""
+        }
+    ],
+    "courses": [{
+            "img": "/assets/images/1.jpg",
+            "title": "Bachelor of Computer Science (Hons)",
+            "text": "The University of Melbourne"
+        },
+        {
+            "img": "/assets/images/2.jpg",
+            "title": "Bachelor of Bussiness Administration",
+            "text": "The University of Melbourne"
+        },
+        {
+            "img": "/assets/images/3.jpg",
+            "title": "Bachelor of Fine Arts",
+            "text": "The University of Melbourne"
+        }
+    ],
+    "articles": [{
+            "img": "/assets/images/blog1.jpg",
+            "title": "Why the freelance life may get easier",
+            "author": "written by Monash University",
+            "date": "14 Oct, 2020",
+            "logo": "/assets/images/verify.png"
+        },
+        {
+            "img": "/assets/images/blog1.jpg",
+            "title": "How much do international students bring to....",
+            "author": "written by Yuzee",
+            "date": "14 Oct, 2020",
+            "logo": "/assets/images/verify.png"
+        },
+        {
+            "img": "/assets/images/blog1.jpg",
+            "title": "Why the freelance life may get easier",
+            "author": "written by Monash University",
+            "date": "14 Oct, 2020",
+            "logo": "/assets/images/verify.png"
+        }
+    ]
+}
